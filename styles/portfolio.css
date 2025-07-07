@@ -1,0 +1,114 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.texe-primary{
+
+color: #FD6E0a;
+
+}
+
+
+.header{
+
+background-image: url('../"C:\projects\web-dev-portfplio\images\hha.png"'),
+
+
+
+}
+
+
+
+
+
+
+
+/* nav styles */ 
+nav{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:0px 200px ;
+}
+.nav-title{
+
+font-weight: 800;
+font-size: 45px;
+
+
+}
+
+nav ul{
+
+    display:flex ;
+    align-items: center;
+}
+nav ul li{
+
+    list-style: none;
+   margin-right: 50px;
+}
+nav ul a{
+
+    text-decoration: none;
+
+    font-size: 20px;
+}
+.dark-2{
+
+color: #474747;
+
+}
+.btn-primary{
+border: none;
+background-color: #fd6e0a;
+font-weight: bold;
+font-size: 20px;
+color: wheat;
+padding: 18px 35px;
+border-radius: 5px;
+
+}
+
+    
+/* banner style */
+.banner-content{
+
+max-width: 580px;
+
+}
+
+.banner{
+
+display: flex;
+justify-content: space-between;
+margin: 0 35px 0 200x;
+
+
+}
+
+.banner-greetings{
+
+font-size: 45px;
+font-weight: 600;
+
+}
+.banner-title{
+
+font-weight: bold;
+font-size: 85px;
+
+}
+.baaner-profile-pic{
+
+width: 500px;
+
+}
