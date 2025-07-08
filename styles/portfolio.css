@@ -9,6 +9,10 @@
 }
 
 /* shared style */
+.secondary-bg{
+background-color: #fff8f3;
+
+}
 .texe-primary{
 
 color: #FD6E0a;
@@ -19,11 +23,22 @@ color: #FD6E0a;
 .header{
 
 background-image: url('../"C:\projects\web-dev-portfplio\images\hha.png"'),
+}
 
+.section-title{
+
+font-size: 35px;
+font-weight: bold;
+color: #181818;
 
 
 }
+.section-description{
 
+font-size: 18px;
+color: #757575;
+
+}
 
 
 
@@ -110,5 +125,38 @@ font-size: 85px;
 .baaner-profile-pic{
 
 width: 500px;
+
+}
+/* main style */
+
+.main{
+max-width: 1140px;
+margin: 0 auto;
+
+
+}
+
+
+
+/* About styles */
+.about{
+
+border-radius: 10px;
+
+padding: 130px 150px;
+text-align: center;
+margin-top: 130px;
+
+}
+.item-description{
+
+font-weight: 600;
+
+
+}
+.about-items{
+
+display: flex;
+justify-content: space-around;
 
 }
